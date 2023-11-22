@@ -28,7 +28,7 @@ iot = IotHub(config.hub_address, config.device_id, config.shared_access_key)
 sensor = SensorSimulator()
 
 # Define the rate at which the sensor data is sampled and sent
-sample_rate_in_seconds = 5
+sample_rate_in_seconds = 2
 
 # Define callback functions for different MQTT client events
 
